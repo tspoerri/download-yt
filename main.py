@@ -9,21 +9,21 @@ youtube = build('youtube', 'v3', developerKey=api_key)
 lastweek = datetime.now() - timedelta(days=7)
 lastweek = lastweek.isoformat()
 
-
+# list of channel IDs
 myChannels = [
-    ['Seth Meyers', 'UCVTyTA7-g9nopHeHbeuvpRA'],
-    ['Sarah Z', 'UCK-GxvzttTnNhq3JPYpXhqg'],
-    ['Vihart', 'UCOGeU-1Fig3rrDjhm9Zs_wg'],
-    ['Soon By You', 'UCuMGWHFZ2BmJmjisxc4WoLw'],
-    ['Rational Animations', 'UCgqt1RE0k0MIr0LoyJRy2lg'],
-    ['Joseph Corella', 'UC5c9Z3QsloqOsb5HS_R5RrA'],
-    ['Avital Macales', 'UCaYh0q26GFn11Up6MhYDBow'],
-    ['Captain Disillusion', 'UCEOXxzW2vU0P-0THehuIIeg'],
-    ['John Oliver', 'UC3XTzVzaHQEd30rQbuvCtTQ'],
-    ['Youngrizzze', 'UCFO7t_D3GnycNhIGixJUKPQ'],
-    ['Jacob Collier', 'UCtmY49Zn4l0RMJnTWfV7Wsg'],
-    ['Awkward Puppets', 'UCQG4cX86zZ51IU2cerZgPSA'],
-    ['Unnecessary Inventions', 'UCB4NFn-8oipHct0IfAQBQrQ']
+    ['UCVTyTA7-g9nopHeHbeuvpRA'],
+    ['UCK-GxvzttTnNhq3JPYpXhqg'],
+    ['UCOGeU-1Fig3rrDjhm9Zs_wg'],
+    ['UCuMGWHFZ2BmJmjisxc4WoLw'],
+    ['UCgqt1RE0k0MIr0LoyJRy2lg'],
+    ['UC5c9Z3QsloqOsb5HS_R5RrA'],
+    ['UCaYh0q26GFn11Up6MhYDBow'],
+    ['UCEOXxzW2vU0P-0THehuIIeg'],
+    ['UC3XTzVzaHQEd30rQbuvCtTQ'],
+    ['UCFO7t_D3GnycNhIGixJUKPQ'],
+    ['UCtmY49Zn4l0RMJnTWfV7Wsg'],
+    ['UCQG4cX86zZ51IU2cerZgPSA'],
+    ['UCB4NFn-8oipHct0IfAQBQrQ']
 ]
 
 # gets all video IDs
